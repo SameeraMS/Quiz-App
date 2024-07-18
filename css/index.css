@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    width:100%;
+    background-color: rgba(94, 181, 98, 1);
+    overflow: hidden;
+}
+
+.navbar img{
+    padding:1px 50px;
+}
+
+.login-box{
+    width:400px;
+    margin:30px auto;
+    text-align: center;
+    background-color:rgba(94, 181, 98, 0.401);
+}
+
+.login-box h1{
+    font-size:30px;
+    padding-top:30px;
+    color: rgb(74, 158, 77);
+    font-weight: bolder;
+    padding-bottom:30px;
+}
+
+.image{
+   margin-bottom: 40px;
+}
+
+input{
+    text-align: center;
+    padding:5px 50px;
+    margin:10px;
+    border: 1px solid rgb(33, 158, 41);
+    border-radius:5px;
+}
+
+button{
+    text-align: center;
+    padding:5px 50px;
+    margin:20px;
+    background-color:  rgba(94, 181, 98, 1);
+    border: none;
+    border-radius:5px;
+    color: white;
+    margin-bottom:50px;
+    cursor: pointer;
+}
+
+footer{
+    height:50px;
+    width: 100vw;
+    background-color: rgba(94, 181, 98, 1);
+    position: absolute;
+    bottom: 0;
+}
+
+footer p{
+    text-align: center;
+    padding-top:15px;
+    color: white;
+}
+
+
+@media only screen and (max-width: 700px){
+    .login-box{
+        width:80%;
+    }
+
+    input{
+        width:50%;
+    }
+}
