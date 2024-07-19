@@ -3,5 +3,6 @@ function setName(){
     if(name==""){
         alert("Please Enter Your Name");
     }else{
-         }
+        window.location.href = window.location.href.replace("/index.html","")+"/questionPage.html";
+    }
 }
