@@ -10,7 +10,15 @@ body{
 .navbar{
     width:100%;
     background-color: rgba(94, 181, 98, 1);
-    overflow: hidden;
+    z-index: 1;
+}
+
+.navbar h1{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding:30px 50px;
+    color: white;
 }
 
 .navbar img{
